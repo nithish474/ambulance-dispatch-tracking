@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.21" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\suman\Downloads\ambulance-dispatch-tracking\target\test-classes;C:\Users\suman\Downloads\ambulance-dispatch-tracking\target\classes;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\suman\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\suman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\suman\AppData\Local\Temp\surefire3054334860287323167\surefirebooter-20260910172806345_3.jar C:\Users\suman\AppData\Local\Temp\surefire3054334860287323167 2026-09-10T17-28-06_129-jvmRun1 surefire-20260910172806345_1tmp surefire_0-20260910172806345_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="AmbulanceDispatcherTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\suman\Downloads\ambulance-dispatch-tracking\target\test-classes;C:\Users\suman\Downloads\ambulance-dispatch-tracking\target\classes;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\suman\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\suman\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\suman\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\suman\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\suman"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\suman\Downloads\ambulance-dispatch-tracking"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\suman\AppData\Local\Temp\surefire3054334860287323167\surefirebooter-20260910172806345_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
+    <property name="user.name" value="suman"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\suman\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\suman\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\suman\Downloads\ambulance-dispatch-tracking"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;c:\Users\suman\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\suman\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;d:\cursor\resources\app\codeBin;C:\Users\suman\AppData\Local\Microsoft\WindowsApps;C:\Program Files\OpenSSL-Win64\bin;D:\IntelliJ IDEA Community Edition 2025.1.3\bin;D:\Microsoft VS Code\bin;C:\Users\suman\AppData\Roaming\npm;C:\Users\suman\.dotnet\tools;C:\Users\suman\AppData\Local\Programs\Ollama;C:\Users\suman\AppData\Local\Python\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Java\jdk-21.0.11\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;d:\cursor\resources\app\codeBin;C:\Users\suman\AppData\Local\Microsoft\WindowsApps;C:\Program Files\OpenSSL-Win64\bin;D:\IntelliJ IDEA Community Edition 2025.1.3\bin;D:\Microsoft VS Code\bin;C:\Users\suman\.dotnet\tools;C:\Users\suman\AppData\Local\Programs\Ollama;C:\Users\suman\AppData\Local\Python\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Java\jdk-21.0.11\bin;C:\Users\suman\AppData\Roaming\npm;C:\Users\suman\.bun\bin;C:\Program Files\Java\jdk-21.0.11\bin;C:\Program Files\Java\apache-maven-3.9.16\bin;c:\Users\suman\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.11+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="emergencyShouldEnterWaitingQueueWhenNoAmbulanceExists" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.041">
+    <system-out><![CDATA[
+Emergency request received for patient: P004
+No suitable ambulance available.
+Emergency added to waiting queue.
+]]></system-out>
+  </testcase>
+  <testcase name="invalidPatientIdShouldThrowException" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.011">
+    <system-out><![CDATA[Ambulance added: AMB101
+Ambulance added: AMB102
+]]></system-out>
+  </testcase>
+  <testcase name="emergencyShouldBeDispatched" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.009">
+    <system-out><![CDATA[Ambulance added: AMB101
+Ambulance added: AMB102
+
+Emergency request received for patient: P002
+Ambulance assigned: AMB102
+Driver: Driver Two
+Estimated distance: 7.0 km
+Estimated arrival time: 10.50 minutes
+]]></system-out>
+  </testcase>
+  <testcase name="emergencyHistoryShouldBeMaintained" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.003">
+    <system-out><![CDATA[Ambulance added: AMB101
+Ambulance added: AMB102
+
+Emergency request received for patient: P006
+Ambulance assigned: AMB101
+Driver: Driver One
+Estimated distance: 3.0 km
+Estimated arrival time: 4.50 minutes
+]]></system-out>
+  </testcase>
+  <testcase name="waitingEmergencyShouldBeAutomaticallyAllocated" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.013">
+    <system-out><![CDATA[
+Emergency request received for patient: P007
+No suitable ambulance available.
+Emergency added to waiting queue.
+Ambulance added: AMB200
+Ambulance assigned: AMB200
+Driver: Driver Ten
+Estimated distance: 5.0 km
+Estimated arrival time: 7.50 minutes
+AMB200 state changed to AVAILABLE
+]]></system-out>
+  </testcase>
+  <testcase name="ambulanceStateShouldUpdate" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.017">
+    <system-out><![CDATA[Ambulance added: AMB101
+Ambulance added: AMB102
+
+Emergency request received for patient: P005
+Ambulance assigned: AMB102
+Driver: Driver Two
+Estimated distance: 7.0 km
+Estimated arrival time: 10.50 minutes
+AMB102 state changed to EN_ROUTE
+AMB102 state changed to PATIENT_PICKED_UP
+AMB102 state changed to HOSPITAL_ARRIVED
+]]></system-out>
+  </testcase>
+  <testcase name="ambulanceShouldBecomeUnavailableAfterDispatch" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.005">
+    <system-out><![CDATA[Ambulance added: AMB101
+Ambulance added: AMB102
+
+Emergency request received for patient: P003
+Ambulance assigned: AMB102
+Driver: Driver Two
+Estimated distance: 7.0 km
+Estimated arrival time: 10.50 minutes
+]]></system-out>
+  </testcase>
+  <testcase name="criticalEmergencyShouldGetICUAmbulance" classname="com.ambulance.dispatch.AmbulanceDispatcherTest" time="0.004">
+    <system-out><![CDATA[Ambulance added: AMB101
+Ambulance added: AMB102
+
+Emergency request received for patient: P001
+Ambulance assigned: AMB102
+Driver: Driver Two
+Estimated distance: 7.0 km
+Estimated arrival time: 10.50 minutes
+]]></system-out>
+  </testcase>
+</testsuite>
