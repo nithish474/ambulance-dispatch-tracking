@@ -8,7 +8,13 @@ pipeline {
     }
 
     stages {
-
+        stage('Verify Java') {
+    steps {
+        bat 'java -version'
+        bat 'javac -version'
+        bat 'mvn -version'
+    }
+}
         stage('Checkout') {
             steps {
                 echo 'Checking out ambulance dispatch project...'
